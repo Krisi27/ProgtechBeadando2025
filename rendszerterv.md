@@ -69,3 +69,8 @@ Unit tesztek: Az alkalmazás fő funkcióinak automatikus tesztelése.
 Könyv hozzáadása érvényes és érvénytelen adatokkal.
 Könyv kiadása és visszavétele.
 Értesítési rendszer működésének ellenőrzése.
+
+## 10. Karbantartási terv
+Frissítések: A szoftver frissítése új funkciókkal és hibajavításokkal.
+Naplózás: Az NLog segítségével történik az események naplózása.
+Hibaelhárítás: A naplófájlok alapján az esetleges hibák gyors felismerése és kezelése.
