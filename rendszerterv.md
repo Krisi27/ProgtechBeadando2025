@@ -12,3 +12,10 @@ Fejlesztők: A fejlesztők felelősek a frontend és backend fejlesztési felada
 Tesztelők: A tesztelők feladata a rendszer alapos tesztelése és a hibák felderítése. Ők végzik a funkcionalitás, a teljesítmény és a felhasználói élmény tesztelését, valamint dokumentálják az esetlegesen felmerülő hibákat.
 
 Projektvezető: A projektvezető feladata a projekt teljes körű koordinálása. Ő felelős a feladatok kiosztásáért, az ütemterv követéséért és a csapat összefogásáért, valamint a projekt előrehaladásának nyomon követéséért.
+
+## 3. Üzleti folyamatok modellje
+Könyvek hozzáadása: Az adminisztrátor új könyveket vehet fel az adatbázisba, megadva az azonosítót, a címet, a szerzőt, a kiadás dátumát és a státuszt.
+
+Könyvek kiadása: A felhasználók könyvet kölcsönözhetnek ki, a rendszer rögzíti a kölcsönző nevét, a könyv címét, a kiadás és a lejárat dátumát.
+
+Könyvek visszavétele: A visszahozott könyveket rögzítik a rendszerben, megadva a visszahozó nevét, a könyv címét, a szerzőt és a státuszt.
