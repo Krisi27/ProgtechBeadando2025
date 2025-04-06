@@ -55,3 +55,9 @@ Frontend: Windows Forms alkalmazás, amely a felhasználók számára biztosítj
 ### Tervezési minták:
 Builder minta: A könyv objektumok létrehozására szolgál láncolt metódushívásokkal.
 Observer minta: Követi a könyvtári rendszer változásait és értesíti a feliratkozott megfigyelőket
+
+## 8. Implementációs terv
+Belépési pont: A főprogram a fő futtatási pont, amely elindítja az alkalmazást.
+Egy könyvek hozzáadására szolgáló osztály kezeli.
+Egy könyvek kiadását szolgáló osztály kezeli és rögzíti a kölcsönzési adatokat.
+A könyvek visszahozását egy erre létrehozott osztály regisztrálja a visszahozásokat.
