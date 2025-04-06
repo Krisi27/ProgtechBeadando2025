@@ -30,3 +30,13 @@ A rendszer figyeli a visszahozási határidőket és értesítést küld.
 A felhasználói felület legyen átlátható és egyszerűen kezelhető.
 A rendszer legyen reszponzív és gyors.
 Biztosítson magas adatbiztonságot és naplózást az eseményekről.
+
+## 5. Funkcionális terv
+### Rendszerszereplők:
+Adminisztrátor: Könyvek hozzáadása, módosítása és visszavétele.
+Felhasználó: Könyvek kölcsönzése és visszahozása.
+### Menühierarchiák:
+Kezdőlap: Bejelentkezés és admin felület.
+Könyv hozzáadása: Új könyv rögzítése az adatbázisban.
+Könyv kiadása: Könyv kikölcsönzése felhasználói adatokkal.
+Könyv visszavétele: Visszahozott könyvek adminisztrációja.
