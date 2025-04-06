@@ -19,3 +19,14 @@ Könyvek hozzáadása: Az adminisztrátor új könyveket vehet fel az adatbázis
 Könyvek kiadása: A felhasználók könyvet kölcsönözhetnek ki, a rendszer rögzíti a kölcsönző nevét, a könyv címét, a kiadás és a lejárat dátumát.
 
 Könyvek visszavétele: A visszahozott könyveket rögzítik a rendszerben, megadva a visszahozó nevét, a könyv címét, a szerzőt és a státuszt.
+
+## 4. Követelmények
+### Funkcionális követelmények:
+A rendszer támogatja a könyvek hozzáadását, kiadását és visszavételét.
+A felhasználók a könyvek adatainak megadásával regisztrálhatják az új példányokat.
+Az adminisztrátorok nyomon követhetik a kiadott és visszahozott könyveket.
+A rendszer figyeli a visszahozási határidőket és értesítést küld.
+### Nem funkcionális követelmények:
+A felhasználói felület legyen átlátható és egyszerűen kezelhető.
+A rendszer legyen reszponzív és gyors.
+Biztosítson magas adatbiztonságot és naplózást az eseményekről.
