@@ -61,3 +61,11 @@ Belépési pont: A főprogram a fő futtatási pont, amely elindítja az alkalma
 Egy könyvek hozzáadására szolgáló osztály kezeli.
 Egy könyvek kiadását szolgáló osztály kezeli és rögzíti a kölcsönzési adatokat.
 A könyvek visszahozását egy erre létrehozott osztály regisztrálja a visszahozásokat.
+
+## 9. Tesztterv
+Unit tesztek: Az alkalmazás fő funkcióinak automatikus tesztelése.
+
+### Tesztelési módszerek:
+Könyv hozzáadása érvényes és érvénytelen adatokkal.
+Könyv kiadása és visszavétele.
+Értesítési rendszer működésének ellenőrzése.
