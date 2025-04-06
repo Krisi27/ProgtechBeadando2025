@@ -49,3 +49,9 @@ IDE: Visual Studio
 Nyelv: C# (.NET)
 Naplózás: NLog
 
+## 7. Architekturális terv
+Backend: C# alapú logikai réteg, amely könyvek hozzáadását, kiadását és visszavételét kezeli.
+Frontend: Windows Forms alkalmazás, amely a felhasználók számára biztosítja a kezelőfelületet.
+### Tervezési minták:
+Builder minta: A könyv objektumok létrehozására szolgál láncolt metódushívásokkal.
+Observer minta: Követi a könyvtári rendszer változásait és értesíti a feliratkozott megfigyelőket
