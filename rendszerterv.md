@@ -40,3 +40,12 @@ Kezdőlap: Bejelentkezés és admin felület.
 Könyv hozzáadása: Új könyv rögzítése az adatbázisban.
 Könyv kiadása: Könyv kikölcsönzése felhasználói adatokkal.
 Könyv visszavétele: Visszahozott könyvek adminisztrációja.
+
+## 6.Fizikai környezet
+Szerver: Windows alapú szerver környezet a könyvtári adatbázis kezelésére.
+Kliens: Windows operációs rendszerű gépek a könyvtárosok és felhasználók számára.
+### Fejlesztő eszközök:
+IDE: Visual Studio
+Nyelv: C# (.NET)
+Naplózás: NLog
+
