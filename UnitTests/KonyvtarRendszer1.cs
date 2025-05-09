@@ -62,3 +62,17 @@ namespace UnitTests
             Assert.DoesNotContain(konyv, konyvtarRendszer.GetKonyvek());
             observerMock.Verify(o => o.Update("Könyv eltávolítva ID: 1"), Times.Once);
         }
+        
+        [Fact]
+        public void ValtozasKonyvStatusz_Ertesitve()
+        {
+            var konyvtarRendszer = new KonyvtarRendszer();
+            var observerMock = new Mock<IObserver>();
+            konyvtarRendszer.HozzaadObserver(observerMock.Object);
+
+            konyvtarRendszer.ValtozasKonyvStatusz("Elérhető");
+
+            observerMock.Verify(o => o.Update("A könyv státusza megváltozott: Elérhető"), Times.Once);
+        }
+    }
+}
